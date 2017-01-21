@@ -81,7 +81,23 @@ textarea {
 /* ==========================================================================
    Website Styles Start
    ========================================================================== */
-
+* a:hover, a:focus {
+     text-decoration: none !important;
+     text-shadow: 0 0 3px #c1bbbb, 0 0 5px #171919;
+}
+* a{
+    color: #9fa3a7 !important;
+    text-decoration: none !important;
+}
+.top-header {
+    background-color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border-bottom: solid #d2dada 1px;
+}
 
 
 
