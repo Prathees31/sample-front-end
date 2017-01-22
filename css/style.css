@@ -93,8 +93,8 @@ textarea {
     background-color: #fff;
     margin-left: -15px;
     margin-right: -15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 10px;
     border-bottom: solid #d2dada 1px;
 }
@@ -113,6 +113,12 @@ textarea {
     padding-left: 25px;
     padding-right: 25px;
     border-bottom: solid #d2dada 1px;
+    
+}
+.nav-menu {
+    background-color: #fff !important;
+    border: none !important;
+
 }
 .img-middle {
     margin-left: 85px;
