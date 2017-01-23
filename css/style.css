@@ -143,6 +143,22 @@ textarea {
     border: 1px solid #d4cece;
     border-radius: 19px;
 }
+.site-breadcrumb {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 2px 40px 2px 40px !important;
+
+    
+}
+.breadcrumb > li + li:before {
+    content: "»" !important;
+}
+.site-breadcrumb * a {
+    color: #333745 !important;
+}
+.site-breadcrumb * a:hover a:focus {
+    color: rgb(211,201,170) !important;
+}
 
 
 
