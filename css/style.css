@@ -335,7 +335,38 @@ textarea {
     color: #000 !important;
     font-weight: bolder !important;     
 }
-
+.footer-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #d2dada;
+    border-left: 0px;
+    border-right: 0px;
+}
+.social-fb {
+  letter-spacing: 25px;
+}
+.social-gg {
+  letter-spacing: 25px;
+}
+.social-tw {
+  letter-spacing: 25px;
+}
+.social-pin {
+  letter-spacing: 25px;
+}
+.social-yt {
+    letter-spacing: 0px;
+}
+.social {
+    padding-top: 10px !important;
+    padding-right: 25px !important;
+}
+.copy-right {
+    padding-top: 10px !important;
+    padding-left: 25px !important;
+}
 
 
 
