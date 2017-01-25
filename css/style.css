@@ -302,7 +302,39 @@ textarea {
     height: 40px;
     line-height: 40px;
 }
+.result-page {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.product-pagination {
+    background-color: #f5f5f5;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 
+}
+.pagination-cs {
+    margin-bottom: 5px !important;
+    margin-top: 7px !important;
+}
+.pagination > li >a {
+    border-radius: 50% !important;
+}
+.pagination > .active > a ,.pagination > .active > a:hover {
+    color: #fff !important;
+    cursor: default !important;
+    background-color: #e8bd1d !important;
+    border-color: #e1e414 !important;
+}
+.pagination > li >a:hover {
+  
+    background-color: #e8bd1d !important;
+    border-color: #e1e414 !important;
+    color: #000 !important;
+    font-weight: bolder !important;     
+}
 
 
 
