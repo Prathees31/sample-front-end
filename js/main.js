@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
         $(data.products).each(function() {
             console.log(data.products.length);
-    var output = "<div class='col-md-3'>" +
+    var output = "<div class='col-md-3 result'>" +
                            "<div class='thumbnail product'>"+
                                 "<a href='#'>"+
                                     "<img" + " " + "src='" + this.image + "'>"+
@@ -36,9 +36,10 @@ $( document ).ready(function() {
                                 "</div>"+
                                 "</div>";
           $('#placeholder').append(output);
-          
-});
-var output2 = "<p class='pull-right result-page'>"+"showing "+data.products.length+" of" +data.products.length;
+});        
+var result = $('.result').length;
+console.log(result);
+var output2 = "<p class='pull-right result-page'>"+"showing "+result+" of" +data.products.length;
 $('#pagination').append(output2);       
 });
 });
