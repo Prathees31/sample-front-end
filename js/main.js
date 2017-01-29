@@ -4,6 +4,7 @@ $( document ).ready(function() {
         {
             "name":"Ray",
             "model":"MOQ 10",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"1",
@@ -12,6 +13,7 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"MOQ 11",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"2",
@@ -20,6 +22,7 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"MOQ 12",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"22",
@@ -28,6 +31,7 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"Villalobos",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"6",
@@ -36,6 +40,7 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"Villalobos",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"5",
@@ -45,6 +50,7 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"Villalobos",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"5",
@@ -54,6 +60,7 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"Villalobos",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"5",
@@ -63,6 +70,1177 @@ $( document ).ready(function() {
         {
            "name":"Ray",
             "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
+            "price_old": "675",
+            "price_new": "685",
+            "sale_percentage":"5",
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+        },
+        {
+           "name":"Ray",
+            "model":"Villalobos",
+            "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"5",
@@ -101,6 +1279,7 @@ $( document ).ready(function() {
                                 "</div>"+
                                 "</div>";
           $('#placeholder').append(output);
+
           console.log(data.products.length);
           console.log(output.length);
     });
