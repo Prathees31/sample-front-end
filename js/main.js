@@ -36,10 +36,9 @@ $( document ).ready(function() {
                                 "</div>"+
                                 "</div>";
           $('#placeholder').append(output);
-          if (data.products.length == 25) {
-             console.log("")
-
-          }
+          
 });
+var output2 = "<p class='pull-right result-page'>"+"showing "+data.products.length+" of" +data.products.length;
+$('#pagination').append(output2);       
 });
 });
