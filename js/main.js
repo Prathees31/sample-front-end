@@ -1,12 +1,17 @@
+var products = [];
+
+
 $( document ).ready(function() {
 
-
-
+    
     $.getJSON('./products.json', function(data) {
-
-        $(data.products).each(function() {
-            console.log(data.products.length);
-    var output = "<div class='col-md-3 result'>" +
+        products = data;
+        var output = " ";
+        $.each(data, function(index, value,key) {
+            console.log(index);
+            console.log(value);
+            console.log(key);
+        output = "<div class='col-md-3 result'>" +
                            "<div class='thumbnail product'>"+
                                 "<a href='#'>"+
                                     "<img" + " " + "src='" + this.image + "'>"+
@@ -36,10 +41,13 @@ $( document ).ready(function() {
                                 "</div>"+
                                 "</div>";
           $('#placeholder').append(output);
+          if (index == 23 ) {
+            return false;
+          }
 });        
 var result = $('.result').length;
 console.log(result);
-var output2 = "<p class='pull-right result-page'>"+"showing "+result+" of" +data.products.length;
+var output2 = "<p class='pull-right result-page'>"+"showing "+result+" of" + " "+data.length;
 $('#pagination').append(output2);       
 });
 });

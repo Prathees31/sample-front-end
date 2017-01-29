@@ -1,4 +1,4 @@
-{"products":[
+[
         {
             "name":"Ray",
             "model":"MOQ 10",
@@ -1287,7 +1287,7 @@
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"5",
-            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/74c05248-db53-46e4-ae9b-f076d7fd1270-thumb-700x820.jpg"  
         },
         {
            "name":"Ray",
@@ -1298,4 +1298,4 @@
             "sale_percentage":"5",
             "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
         }
-        ]}
+        ]
