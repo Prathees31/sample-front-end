@@ -1,16 +1,27 @@
-var products = [];
-
-
 $( document ).ready(function() {
-
+     var products = [];
+     var showPerPage ="";
+     var numberOfItems="";
+     var numberOfPages="";
+     var sliceData= "";
     
     $.getJSON('./products.json', function(data) {
         products = data;
         var output = " ";
-        $.each(data, function(index, value,key) {
+        showPerPage = 24;
+        numberOfItems = products.length;
+        console.log(numberOfItems);
+        numberOfPages = Math.ceil(numberOfItems/showPerPage);
+        console.log(numberOfPages);
+          //$('#placeholder').hide(output);
+        sliceData = products.slice(0, showPerPage);
+          console.log(sliceData);
+          //$('#placeholder').append(output);
+        $.each(sliceData, function(index, value,key,val) {
             console.log(index);
-            console.log(value);
-            console.log(key);
+            console.log(value.name);
+            //console.log(data.length);
+          
         output = "<div class='col-md-3 result'>" +
                            "<div class='thumbnail product'>"+
                                 "<a href='#'>"+
@@ -41,12 +52,19 @@ $( document ).ready(function() {
                                 "</div>"+
                                 "</div>";
           $('#placeholder').append(output);
-          if (index == 23 ) {
-            return false;
-          }
+         /* if (index == 23 ) {
+            return false;           //break the each loop
+          } */
+          /*$.each(data, function(key,val) {             
+            console.log(val);
+            console.log(val.name);
+            console.log(val.price_old);         
+          });*/
+          
+
 });        
 var result = $('.result').length;
-console.log(result);
+//console.log(result);
 var output2 = "<p class='pull-right result-page'>"+"showing "+result+" of" + " "+data.length;
 $('#pagination').append(output2);       
 });
