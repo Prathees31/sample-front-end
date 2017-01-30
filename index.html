@@ -182,13 +182,14 @@
                       <div  id="product-details">
 
                         <div class="row" id="placeholder">
-                          
+                          <input type='hidden' id='currentPage' />
+                          <input type='hidden' id='showPerPage' />
                       </div>   
                     
                      <div class="row product-pagination">
                     
                       <div class="col-md-6">
-                        <ul class="pagination pagination-cs">
+                        <ul class="pagination pagination-cs" id="pagination">
                             <!--<li><a href="#">&lt;</a></li>
                             <li class="active"><a  href="#">1</a></li>
                             <li><a href="#">2</a></
@@ -203,7 +204,7 @@
                             
                         </ul>
                       </div> 
-                      <div class="col-md-6 " id="pagination">
+                      <div class="col-md-6 " id="showingResult">
                           <!--<p class="pull-right result-page">Showing 1 to 24 of 371 (16 Pages)</p> -->
                       </div>
                       
@@ -238,7 +239,7 @@
             
 
         </div>
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>

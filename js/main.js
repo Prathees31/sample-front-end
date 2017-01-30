@@ -1,14 +1,21 @@
-$( document ).ready(function() {
-     var products = [];
+var products = [];
      var showPerPage ="";
      var numberOfItems="";
      var numberOfPages="";
      var sliceData= "";
-    
+     var paginationHtml="";
+     var currentLink ="";
+     var new_page ="";
+     var start_from="";
+     var end_on ="";
+
+
+$( document ).ready(function() {
+     
     $.getJSON('./products.json', function(data) {
         products = data;
         var output = " ";
-        showPerPage = 24;
+        /*showPerPage = 24;
         numberOfItems = products.length;
         console.log(numberOfItems);
         numberOfPages = Math.ceil(numberOfItems/showPerPage);
@@ -16,16 +23,17 @@ $( document ).ready(function() {
           //$('#placeholder').hide(output);
         sliceData = products.slice(0, showPerPage);
           console.log(sliceData);
-          //$('#placeholder').append(output);
-        $.each(sliceData, function(index, value,key,val) {
+          //$('#placeholder').append(output); */
+        
+        $.each(products, function(index, value,key,val) {
             console.log(index);
             console.log(value.name);
             //console.log(data.length);
           
-        output = "<div class='col-md-3 result'>" +
+        output = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
                            "<div class='thumbnail product'>"+
                                 "<a href='#'>"+
-                                    "<img" + " " + "src='" + this.image + "'>"+
+                                    "<img class='product-image'" + " " + "src='" + this.image + "'>"+
                                 "</a>"+
                                  "<span class='sale-percentage'>"+
                                   "<b>"+ this.sale_percentage+"%"+"</b>"+
@@ -62,10 +70,75 @@ $( document ).ready(function() {
           });*/
           
 
-});        
-var result = $('.result').length;
+});
+        showPerPage = 24;
+        numberOfItems = $('.result').length;
+        console.log(numberOfItems);
+        numberOfPages = Math.ceil(numberOfItems/showPerPage);
+        console.log(numberOfPages);
+        //$('#placeholder').hide(output);
+        //$('#placeholder').append(output);
+        $('#currentPage').val(0);
+        $('#showPerPage').val(showPerPage);
+        paginationHtml = "<li><a class='previousLink' href='javascript:previous();'>&lt;</a></li>"
+        currentLink = 0;
+        while(numberOfPages > currentLink){
+        paginationHtml += '<li><a class="pageLink" href="javascript:go_to_page(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+        currentLink++;
+    }
+    paginationHtml += '<li><a class="nextLink" href="javascript:next();">&gt;</a></li>';
+    $('#pagination').html(paginationHtml);
+    $('#pagination .pageLink:first').addClass('activePage');
+    $('.result').css('display', 'none');
+    $('.result').slice(0, showPerPage).css('display', 'block');
+
+    
+  
+   
+
+
 //console.log(result);
-var output2 = "<p class='pull-right result-page'>"+"showing "+result+" of" + " "+data.length;
-$('#pagination').append(output2);       
+var output2 = "<p class='pull-right result-page'>"+"showing "+numberOfItems+" of" + " "+data.length;
+$('#showingResult').append(output2);       
 });
 });
+function previous(){
+
+    new_page = parseInt($('#currentPage').val()) - 1;
+    //if there is an item before the current active link run the function
+    if($('.activePage').prev('.pageLink').length==true){
+        go_to_page(new_page);
+    }
+    }
+   
+  function next(){
+    new_page = parseInt($('#currentPage').val()) + 1;
+    //if there is an item after the current active link run the function
+    if($('.activePage').next('.pageink').length==true){
+        go_to_page(new_page);
+    }
+   }
+    
+
+   function go_to_page(page_num){
+
+    var show_per_page = parseInt($('#showPerPage').val());
+
+
+    start_from = page_num * show_per_page;
+
+    
+    end_on = start_from + show_per_page;
+
+
+    $('.result').css('display', 'none').slice(start_from, end_on).css('display', 'block');
+
+    /*get the page link that has longdesc attribute of the current page and add active_page class to it
+    and remove that class from previously active page link*/
+    $('.pageLink[longdesc=' + page_num +']').addClass('activePage').siblings('.activePage').removeClass('activePage');
+
+    //update the current page input field
+    $('.result').val(page_num);
+    console.log(page_num);
+}
+

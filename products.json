@@ -1,6 +1,6 @@
 [
         {
-            "name":"Ray",
+            "name":"sampl",
             "model":"MOQ 10",
             "type"  : "kurti",
             "price_old": "675",
@@ -9,16 +9,16 @@
             "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
         },
         {
-           "name":"Ray",
+           "name":"sample2",
             "model":"MOQ 11",
             "type"  : "kurti",
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"2",
-            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/026286e2-edc5-4fc6-a587-17c06ba9c3bb-thumb-700x820.jpg"  
         },
         {
-           "name":"Ray",
+           "name":"sample3",
             "model":"MOQ 12",
             "type"  : "kurti",
             "price_old": "675",
@@ -27,7 +27,7 @@
             "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
         },
         {
-           "name":"Ray",
+           "name":"sample4",
             "model":"Villalobos",
             "type"  : "kurti",
             "price_old": "675",
@@ -99,7 +99,7 @@
             "price_old": "675",
             "price_new": "685",
             "sale_percentage":"5",
-            "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
+            "image"     : "http://images.textilebuzz.com/cache/cropimg/29cf7259-0b7d-46c0-9e6f-4e3f37181bc2-thumb-700x820.jpg"  
         },
         {
            "name":"Ray",
@@ -255,7 +255,7 @@
             "image"     : "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"  
         },
         {
-           "name":"Ray",
+           "name":"Prathees",
             "model":"Villalobos",
             "type"  : "kurti",
             "price_old": "675",
