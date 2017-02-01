@@ -17,13 +17,14 @@ $.getJSON('./products.json', function(data) {
       //console.log(limit);
       var sta = 0;
       goFun(sta,limit);
+      pagination();
 });
 
 
-      function goFun(sta,limit) {
-  for (var i =sta ; i < limit; i++) {
+function goFun(sta,limit) {
+	for (var i =sta ; i < limit; i++) {
     
-    var $nr = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
+    	var output = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
                            "<div class='thumbnail product'>"+
                                 "<a href='#'>"+
                                     "<img class='product-image'" + " " + "src='" + products[i].image + "'>"+
@@ -52,19 +53,24 @@ $.getJSON('./products.json', function(data) {
                                 "</div>"+
                                 "</div>"+
                                 "</div>";
-    $('#placeholder').append($nr);
-     paginationHtml = "<li><a class='previousLink' id='preeValue' href='javascript:previous();'>&lt;</a></li>"
+                                $('#placeholder').append(output);
+    
+  }
+}
+ function pagination() {
+
+ 	  paginationHtml = "<li><a href='javascript:previous();'>&lt;</a></li>"
             currentLink = 0;
              while(numberOfPages > currentLink){
-             paginationHtml += '<li><a class="pageLink" href="javascript:go_to_page(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+             paginationHtml += '<li><a class="" href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
              currentLink++;
-             //console.log(currentLink);
+             console.log(currentLink);
             }
-            paginationHtml += '<li><a class="nextLink" id="preeValue" href="javascript:next();">&gt;</a></li>';
+            paginationHtml += '<li><a href="javascript:next();">&gt;</a></li>';
             $('#pagination').html(paginationHtml);
-  }
-  }
- 
+ 	
+ }
+
 function next(){
   
 	var next = limit;
@@ -86,3 +92,14 @@ function next(){
 	goFun(pre,limit); 
 	}
   }	
+  function goToPage(pageNum) {
+  	// body...
+  	var goToPage = limit;
+  	console.log(goToPage);
+  	startFrom = pageNum * limit;
+  	console.log(startFrom);
+  	endTo = startFrom + limit;
+  	console.log(endTo);
+  	$('#placeholder').empty();
+  	goFun(startFrom,endTo);
+  }
