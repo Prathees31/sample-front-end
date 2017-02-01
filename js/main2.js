@@ -1,0 +1,88 @@
+var products = [];
+var showPerPage ="";
+var numberOfItems="";
+var numberOfPages="";
+var paginationHtml="";
+var currentLink ="";
+var limit="";
+$.getJSON('./products.json', function(data) {
+	  
+	  products = data;
+	  showPerPage = 24;
+	  numberOfItems = products.length; //getting and declaring the total number of json data in a array
+      //console.log(numberOfItems);
+      numberOfPages = Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
+      //console.log(numberOfPages);
+      limit = showPerPage;
+      //console.log(limit);
+      var sta = 0;
+      goFun(sta,limit);
+});
+
+
+      function goFun(sta,limit) {
+  for (var i =sta ; i < limit; i++) {
+    
+    var $nr = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
+                           "<div class='thumbnail product'>"+
+                                "<a href='#'>"+
+                                    "<img class='product-image'" + " " + "src='" + products[i].image + "'>"+
+                                "</a>"+
+                                 "<span class='sale-percentage'>"+
+                                  "<b>"+ products[i].sale_percentage+"%"+"</b>"+
+                                "</span>"+
+                                "<img class='upcoming_image' src='http://www.textilebuzz.com/image/icons/upcoming.png' alt=''>"+
+                                "<div class='caption'>"+
+                                "<h3 class='product-caption'>"+ products[i].name +
+                                "<p class='product-model'>"+products[i].model+"</p>"+
+                                "<ul class='list-inline price'>"+
+                                "<li>"+
+                                "<p class='price-old'>"+"INR"+" "+products[i].price_old+"</p"+
+                                "</li>"+
+                                "<li>"+
+                                "<p class='price-new'>"+"INR"+" "+products[i].price_new+"</p"+
+                                "</li>"+
+                                "</ul>"+
+                                "</div>"+
+                                "<div class='product-cart'>"+
+                                "<p class='text-center'>"+
+                                "<a href='#' class='btn btn-default cart-button' role='button'>"+
+                                "<i class='fa fa-shopping-cart cart-symbol' aria-hidden='true'>"+"</i>"+" "+" "+
+                                "Add to Cart"+"</a>"+"</p>"+
+                                "</div>"+
+                                "</div>"+
+                                "</div>";
+    $('#placeholder').append($nr);
+     paginationHtml = "<li><a class='previousLink' id='preeValue' href='javascript:previous();'>&lt;</a></li>"
+            currentLink = 0;
+             while(numberOfPages > currentLink){
+             paginationHtml += '<li><a class="pageLink" href="javascript:go_to_page(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+             currentLink++;
+             //console.log(currentLink);
+            }
+            paginationHtml += '<li><a class="nextLink" id="preeValue" href="javascript:next();">&gt;</a></li>';
+            $('#pagination').html(paginationHtml);
+  }
+  }
+ 
+function next(){
+  
+	var next = limit;
+	console.log(next);
+	if(numberOfItems>=next) {
+	limit = limit+showPerPage;
+	console.log(limit);
+	$('#placeholder').empty();
+	goFun(next,limit);
+	}
+  }
+   function previous() {
+	var pre = limit-(2*showPerPage);
+	console.log(pre);
+	if(pre>=0) {
+	limit = limit-showPerPage;
+	console.log(limit)
+	$('#placeholder').empty();
+	goFun(pre,limit); 
+	}
+  }	

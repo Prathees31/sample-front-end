@@ -14,7 +14,7 @@ $( document ).ready(function() {
      
     $.getJSON('./products.json', function(data) {
         products = data;
-        var output = " ";
+        var output = "";
         /*showPerPage = 24;
         numberOfItems = products.length;
         console.log(numberOfItems);
@@ -24,30 +24,32 @@ $( document ).ready(function() {
         sliceData = products.slice(0, showPerPage);
           console.log(sliceData);
           //$('#placeholder').append(output); */
+        //showPerPage = 24;  
+        //sliceData = products.slice(0, showPerPage);
         
         $.each(products, function(index, value,key,val) {
-            console.log(index);
-            console.log(value.name);
+            //console.log(index);
+            //console.log(value.name);
             //console.log(data.length);
           
         output = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
                            "<div class='thumbnail product'>"+
                                 "<a href='#'>"+
-                                    "<img class='product-image'" + " " + "src='" + this.image + "'>"+
+                                    "<img class='product-image'" + " " + "src='" + value.image + "'>"+
                                 "</a>"+
                                  "<span class='sale-percentage'>"+
-                                  "<b>"+ this.sale_percentage+"%"+"</b>"+
+                                  "<b>"+ value.sale_percentage+"%"+"</b>"+
                                 "</span>"+
                                 "<img class='upcoming_image' src='http://www.textilebuzz.com/image/icons/upcoming.png' alt=''>"+
                                 "<div class='caption'>"+
-                                "<h3 class='product-caption'>"+ this.name +
-                                "<p class='product-model'>"+this.model+"</p>"+
+                                "<h3 class='product-caption'>"+ value.name +
+                                "<p class='product-model'>"+value.model+"</p>"+
                                 "<ul class='list-inline price'>"+
                                 "<li>"+
-                                "<p class='price-old'>"+"INR"+" "+this.price_old+"</p"+
+                                "<p class='price-old'>"+"INR"+" "+value.price_old+"</p"+
                                 "</li>"+
                                 "<li>"+
-                                "<p class='price-new'>"+"INR"+" "+this.price_new+"</p"+
+                                "<p class='price-new'>"+"INR"+" "+value.price_new+"</p"+
                                 "</li>"+
                                 "</ul>"+
                                 "</div>"+
@@ -60,6 +62,7 @@ $( document ).ready(function() {
                                 "</div>"+
                                 "</div>";
           $('#placeholder').append(output);
+});          
          /* if (index == 23 ) {
             return false;           //break the each loop
           } */
@@ -69,8 +72,7 @@ $( document ).ready(function() {
             console.log(val.price_old);         
           });*/
           
-
-});
+        /*  **using Html
         showPerPage = 24;
         numberOfItems = $('.result').length;
         console.log(numberOfItems);
@@ -90,18 +92,33 @@ $( document ).ready(function() {
     $('#pagination').html(paginationHtml);
     $('#pagination .pageLink:first').addClass('activePage');
     $('.result').css('display', 'none');
-    $('.result').slice(0, showPerPage).css('display', 'block');
+    $('.result').slice(0, showPerPage).css('display', 'block'); */
 
-    
-  
-   
-
-
+            //Pagination Using Json Data Start
+             showPerPage = 24; //declaring the total content to view
+             numberOfItems = products.length; //getting and declaring the total number of json data in a array
+             console.log(numberOfItems);
+             numberOfPages = Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
+             console.log(numberOfPages);
+             $('#currentPage').val(0);
+             $('#showPerPage').val(showPerPage);
+             paginationHtml = "<li><a class='previousLink' href='javascript:previous();'>&lt;</a></li>"
+             currentLink = 0;
+             while(numberOfPages > currentLink){
+             paginationHtml += '<li><a class="pageLink" href="javascript:go_to_page(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+             currentLink++;
+             console.log(currentLink);
+            }
+            paginationHtml += '<li><a class="nextLink" href="javascript:next();">&gt;</a></li>';
+            $('#pagination').html(paginationHtml);
+            products.slice(0, showPerPage);
+            
 //console.log(result);
 var output2 = "<p class='pull-right result-page'>"+"showing "+numberOfItems+" of" + " "+data.length;
 $('#showingResult').append(output2);       
 });
 });
+
 function previous(){
 
     new_page = parseInt($('#currentPage').val()) - 1;
@@ -127,14 +144,17 @@ function previous(){
 
     start_from = page_num * show_per_page;
 
+     console.log(start_from);
+
     
     end_on = start_from + show_per_page;
+
+    console.log(end_on);
 
 
     $('.result').css('display', 'none').slice(start_from, end_on).css('display', 'block');
 
-    /*get the page link that has longdesc attribute of the current page and add active_page class to it
-    and remove that class from previously active page link*/
+    
     $('.pageLink[longdesc=' + page_num +']').addClass('activePage').siblings('.activePage').removeClass('activePage');
 
     //update the current page input field
