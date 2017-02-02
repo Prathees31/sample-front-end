@@ -107,12 +107,14 @@ function next(){
 function productsFilter() {
 	 // body...
 	 var kurti = $(products).filter(function(index) {
-	 	return products[index].type == "kurti";
+	 	return products[index].type =="kurti";
 	 });
 	 console.log(kurti);
 	 numberOfItems = kurti.length;
 	 numberOfPages = Math.ceil(numberOfItems/limit);
    	 limit = limit;
+   	 $('#placeholder').empty();
+   	 products = kurti;
    	 goFun(sta,limit);
    	 pagination();
 }
@@ -120,6 +122,12 @@ $('#selectId').on('change', function () {
      var selectVal = $("#selectId option:selected").val();
      console.log(selectVal);
      limit = selectVal;
+     $('#placeholder').empty();
      goFun(sta,limit);
      pagination();
 });
+
+/*$('#inputFilter input[type=checkbox]').on(click,function() {
+
+
+});*/
