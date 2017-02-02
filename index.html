@@ -116,10 +116,29 @@
                        <li><a href="#">Kurti</a></li>
                    </ul>
                  </div>
+                 <div class="container-fluid">
+                                 
             
 
                  
-                 <div class="container-fluid">
+                 <div class="row">
+                   <div class="col-sm-3 col-md-2 sidebar">
+                      <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+
+          
+                  </div>
+                   <div class="col-sm-9 col-md-10 main">
                      <div class="content-header">
                          <h1 class="text-uppercase head-margin"><strong>Kurtis</strong></h1>
 
@@ -154,25 +173,14 @@
                                             <option>Full Catalogue</option>
                                         </select>
                                     </li>
-                                    <li><p>Sort By</p></li>
-                                    
-                                    <li> 
-                                        <select class="form-control select-filter">
-                                            <option>Deafault</option>
-                                            <option>Name(A-Z)</option>
-                                            <option>Name(Z-A)</option>
-                                            <option>Rating(Highest)</option>
-                                            <option>Rating(Lowest)</option>
-                                        </select>
-                                    </li>
                                     <li><p>Show</p></li>
                                     <li> 
-                                        <select class="form-control select-filter">
-                                            <option value="" selected="selected" >24</option>
-                                            <option>25</option>
-                                            <option>50</option>
-                                            <option>75</option>
-                                            <option>100</option>
+                                        <select class="form-control select-filter" id="selectId">
+                                            <option>24</option>
+                                            <option>48</option>
+                                            <option>72</option>
+                                            <option>96</option>
+                                            <option>120</option>
                                         </select>
                                     </li>
                                     
@@ -183,8 +191,7 @@
                       <div  id="product-details">
 
                         <div class="row" id="placeholder">
-                          <input type='hidden' id='currentPage' />
-                          <input type='hidden' id='showPerPage' />
+                          
                       </div>   
                     
                      <div class="row product-pagination">
@@ -201,7 +208,10 @@
                      </div>
                  </div>
                  <div id="jsGrid"></div>
-                 <footer>
+            </div>
+        </div>
+        </div>
+        <footer>
                     <div class="row footer-content ">
                         <div class="col-md-6 copy-right">
                            <p>Copyright&nbsp;&#x24B8;2017<a href="">Textile Buzz</a>All Rights Reserved</p> 
@@ -222,13 +232,6 @@
                     </div>
                 
                  </footer> 
-                
-
-               
-                
-            
-
-        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>

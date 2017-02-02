@@ -116,3 +116,10 @@ function productsFilter() {
    	 goFun(sta,limit);
    	 pagination();
 }
+$('#selectId').on('change', function () {
+     var selectVal = $("#selectId option:selected").val();
+     console.log(selectVal);
+     limit = selectVal;
+     goFun(sta,limit);
+     pagination();
+});
