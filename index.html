@@ -140,7 +140,7 @@
                                 <ul class="list-inline">
                                     <li><a><i class="glyphicon glyphicon-th-large icon-lg"></i></a></li>
                                     <li><a><i class="glyphicon glyphicon-th-list icon-lg"></i></a></li>
-                                    <li><a href=""><p>Product Compare(0)</a></li>
+                                    <li><a href="javascript:productsFilter();"><p>Product Compare(0)</a></li>
                                 </ul>
                                  
                              </div>
@@ -150,11 +150,12 @@
                                     <li> 
                                         <select class="form-control select-filter">
                                             <option>Select Product Type</option>
-                                            <option>Single Page</option>
+                                            <option href="javascript:productsFilter();">Single Page</option>
                                             <option>Full Catalogue</option>
                                         </select>
                                     </li>
                                     <li><p>Sort By</p></li>
+                                    
                                     <li> 
                                         <select class="form-control select-filter">
                                             <option>Deafault</option>
@@ -167,7 +168,7 @@
                                     <li><p>Show</p></li>
                                     <li> 
                                         <select class="form-control select-filter">
-                                            <option>10</option>
+                                            <option value="" selected="selected" >24</option>
                                             <option>25</option>
                                             <option>50</option>
                                             <option>75</option>

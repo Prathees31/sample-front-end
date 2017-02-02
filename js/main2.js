@@ -4,6 +4,7 @@ var numberOfItems="";
 var numberOfPages="";
 var paginationHtml="";
 var currentLink ="";
+var sta="";
 var limit="";
 $.getJSON('./products.json', function(data) {
 	  
@@ -15,7 +16,7 @@ $.getJSON('./products.json', function(data) {
       //console.log(numberOfPages);
       limit = showPerPage;
       //console.log(limit);
-      var sta = 0;
+      sta = 0;
       goFun(sta,limit);
       pagination();
 });
@@ -62,7 +63,7 @@ function goFun(sta,limit) {
  	  paginationHtml = "<li><a href='javascript:previous();'>&lt;</a></li>"
             currentLink = 0;
              while(numberOfPages > currentLink){
-             paginationHtml += '<li><a class="" href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+             paginationHtml += '<li><a class="" href="javascript:goToPage(' + currentLink +')">'+ (currentLink + 1) +'</a></li>';
              currentLink++;
              console.log(currentLink);
             }
@@ -103,3 +104,15 @@ function next(){
   	$('#placeholder').empty();
   	goFun(startFrom,endTo);
   }
+function productsFilter() {
+	 // body...
+	 var kurti = $(products).filter(function(index) {
+	 	return products[index].type == "kurti";
+	 });
+	 console.log(kurti);
+	 numberOfItems = kurti.length;
+	 numberOfPages = Math.ceil(numberOfItems/limit);
+   	 limit = limit;
+   	 goFun(sta,limit);
+   	 pagination();
+}
